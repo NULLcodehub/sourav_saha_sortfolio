@@ -6,7 +6,7 @@ const NavbarList = () => {
        <>
             <nav>
                 <div>
-                    <ul className='flex '>
+                    <ul className='flex flex-col md:flex-row mt-56 md:mt-0  md:w-full justify-center items-center '>
                     
                         <li><Link to='Hero' smooth={true} duration={500}>Home</Link></li>
                         <li><Link to='About' smooth={true} duration={500} >About</Link></li>
