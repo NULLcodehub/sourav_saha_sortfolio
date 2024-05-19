@@ -9,13 +9,14 @@ import NavbarList from './NavbarList';
 const Navbar = () => {
     return (
         <>
-        <div className='flex bg-indigo-200 mt-2 ml-5 mr-5 h-14 min-w-fit rounded-md justify-between items-center'>
+        <div className='fixed top-0 left-0 flex bg-indigo-200 mt-2 ml-5 mr-5 h-14 min-w-fit rounded-md justify-between items-center sticky'>
             <>
                 <div>
                     <h1 className='text-2xl mx-5 '>logo</h1>
                 </div>
 
                 <div className='mx-auto hidden md:block bg-white '>
+                    
                     <NavbarList/>
                 </div>
             </>
