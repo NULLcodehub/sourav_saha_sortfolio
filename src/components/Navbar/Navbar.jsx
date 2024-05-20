@@ -16,6 +16,10 @@ const Navbar = () => {
             
     }
 
+    const closeNav=()=>{
+        setNavActive(false)
+    }
+
     // console.log(!navActive)
 
     return (
@@ -29,7 +33,7 @@ const Navbar = () => {
                 {/* hidden md:block */}
                 {/* {console.log(!navActive)} */}
                 <div className={`mx-auto ${!navActive ? 'hidden md:block ': null}`}> 
-                    <NavbarList navActive={navActive}/>
+                    <NavbarList closeNav={closeNav}/>
                 </div>
             </>
             
