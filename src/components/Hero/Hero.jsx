@@ -1,10 +1,23 @@
 import React from 'react';
-
+import Spline from '@splinetool/react-spline';
+import Navbar from '../Navbar/Navbar';
+import {motion} from 'framer-motion';
+import './Hero.css';
 const Hero = () => {
     return (
-        <div id='Hero' className='text-5xl flex  justify-center items-center h-screen '>
-            hello from hero
-        </div>
+        <>
+            
+            
+            {/* <Navbar/> */}
+            <motion.div id='Hero' className='flex  justify-center  h-screen '
+                animate={{}}
+            >
+                <motion.div className='intro'>
+                    Hey
+                </motion.div>
+            </motion.div>
+        </>
+        
     );
 };
 

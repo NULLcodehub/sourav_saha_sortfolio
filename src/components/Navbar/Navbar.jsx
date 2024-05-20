@@ -24,7 +24,7 @@ const Navbar = () => {
 
     return (
         <>
-        <div className={`top-0 left-0 sticky flex bg-indigo-200 mt-2 ml-5 mr-5 h-14 min-w-fit rounded-md justify-between  ${navActive ? "h-fit transition-all duration-1000 ease-out": null} `}>
+        <div className={`top-0 left-0 sticky flex mt-2 ml-5 mr-5 h-14 min-w-fit rounded-md justify-between  ${navActive ? "h-fit transition-all duration-1000 ease-out  ": null} `}>
             <>
                 <div>
                     <h1 className='text-2xl mx-5 my-2'>logo</h1>
