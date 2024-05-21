@@ -24,10 +24,10 @@ const Navbar = () => {
 
     return (
         <>
-        <div className={`top-0 left-0 sticky flex mt-2 ml-5 mr-5 h-14 min-w-fit rounded-md justify-between  ${navActive ? "h-fit transition-all duration-1000 ease-out  ": null} `}>
+        <div className={`top-0 bg-white left-0 sticky flex mt-2 ml-5 mr-5 h-14 min-w-fit rounded-md justify-between  ${navActive ? "h-fit transition-all duration-1000 ease-out ": null} `}>
             <>
                 <div>
-                    <h1 className='text-2xl mx-5 my-2'>logo</h1>
+                    <h1 className='mx-5 my-2'>Code by Sourav</h1>
                 </div>
 
                 {/* hidden md:block */}
@@ -41,8 +41,8 @@ const Navbar = () => {
             <div className=' block md:hidden my-4'>
                 <button className='w-14 items-center' onClick={setNavActiveHandaler}>
                     { !navActive? 
-                        <BsFilterLeft style={{ color: 'white', fontSize: '24px' }} /> :
-                        <BsXLg style={{ color: 'white', fontSize: '24px' } }/>
+                        <BsFilterLeft style={{ color: 'black', fontSize: '24px' }} /> :
+                        <BsXLg style={{ color: 'black', fontSize: '24px' } }/>
                     }
                     
                 </button>

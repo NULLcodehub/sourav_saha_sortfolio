@@ -8,12 +8,19 @@ import About from './components/About/About';
 import Hero from './components/Hero/Hero';
 import Projects from './components/Project/Projects';
 import Contact from './components/Contact/Contact';
+import Cursor from './components/Cursor/Cursor';
+import './App.css';
 
 function App() {
 
+
+  
+
   return (
     <>
+      
       <Navbar/>
+      <Cursor/>
       <section id='Hero'>
         <Hero/>
       </section>
