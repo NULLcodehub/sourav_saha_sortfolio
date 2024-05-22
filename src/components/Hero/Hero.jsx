@@ -13,7 +13,7 @@ const Hero = () => {
     return (
         <>
            
-            <motion.div id='Hero' className='flex flex-col mx-7 bg-white  items-center h-screen'
+            <motion.div id='Hero' className='flex flex-col mx-7 bg-white  items-center h-110'
             animate={{}}> 
                     <motion.div  className='flex  justify-center flex-col items-center h-96 my-20'
                     
@@ -41,7 +41,7 @@ const Hero = () => {
                             </motion.div>
 
                         </motion.h1>
-                        <p className=' w-9/12  text-gray-500 py-4 md:py-0 md:text-lg md:w-6/12'
+                        <p className=' w-9/12  text-gray-500 py-4 md:py-0 md:text-lg md:w-6/12 discription-p'
                             data-aos='fade-down'
                             data-aos-delay='2000'
                             data-aos-duration='3000'

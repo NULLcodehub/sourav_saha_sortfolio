@@ -45,7 +45,10 @@ const Navbar = () => {
             </>
             
 
-            <div className=' block md:hidden my-4'>
+            <div className=' block md:hidden my-4' 
+                data-aos='fade-down'
+                data-aos-delay='3000'
+            >
                 <button className='w-14 items-center' onClick={setNavActiveHandaler}>
                     { !navActive? 
                         <BsFilterLeft style={{ color: 'black', fontSize: '24px' }} /> :

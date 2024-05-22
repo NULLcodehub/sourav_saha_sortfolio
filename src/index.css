@@ -10,5 +10,7 @@
 
 body{
     /* background-color: #181a1f; */
+    /* background-color: rgba(245, 245, 245, 0.57); */
+    font-family:"Inter", sans-serif ;
     /* color: var(--main-text-color); */
 }
