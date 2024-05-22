@@ -24,10 +24,17 @@ const Navbar = () => {
 
     return (
         <>
-        <div className={`top-0 bg-white left-0 sticky flex mt-2 ml-5 mr-5 h-14 min-w-fit rounded-md justify-between  ${navActive ? "h-fit transition-all duration-1000 ease-out ": null} `}>
+        <div className={`mainNavbar top-0 bg-white z-50 left-0 sticky flex mt-2 ml-5 mr-5 h-14 min-w-fit rounded-md justify-between  ${navActive ? "h-fit transition-all duration-1000 ease-out ": null} `}
+            
+        
+        
+        >
             <>
                 <div>
-                    <h1 className='mx-5 my-2'>Code by Sourav</h1>
+                    <h1 className='mx-5 my-2  text-gray-500'
+                        data-aos='fade-down'
+                        data-aos-delay='3000'
+                    >Code by <span className='text-black '>Sourav</span></h1>
                 </div>
 
                 {/* hidden md:block */}

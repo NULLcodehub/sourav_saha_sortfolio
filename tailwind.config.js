@@ -6,9 +6,10 @@ export default{
       fontSize:{
         '40px':'40px',
         '50px':'50px',
+        '60px':'60px',
         '70px':'70px',
         '80px':'80px',
-        '140px':'140px',
+        '150px':'150px',
         '100px':'100px',
         '200px':'200px',
         '300px':'300px',

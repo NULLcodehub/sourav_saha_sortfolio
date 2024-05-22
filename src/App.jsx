@@ -1,6 +1,6 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import AOS from 'aos';
 
 
 import Navbar from './components/Navbar/Navbar';
@@ -11,9 +11,18 @@ import Contact from './components/Contact/Contact';
 import Cursor from './components/Cursor/Cursor';
 import './App.css';
 
+
 function App() {
 
-
+  useEffect(() => {
+    // Initialize AOS
+    AOS.init({
+      duration: 1000, 
+      easing: 'ease-in-out', 
+      offset: 120, 
+      delay: 100,
+    });
+  }, []);
   
 
   return (
