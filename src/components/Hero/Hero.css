@@ -10,7 +10,7 @@
 
 
 .developer{
-    animation: beep 2s ease-in-out forwards;
+    animation: beep 3s ease-in-out forwards;
 
 }
 
@@ -19,13 +19,19 @@
 }
 
 @keyframes beep {
-    0%, 100% {
+    0% {
       transform: scale(1);
       /* background-color: #fff; */
     }
+    /* 25%{
+        transform: scale(1);
+    } */
     50% {
       transform: scale(1.7);
       /* background-color: #ff0000; */
+    }
+    100%{
+        transform: scale(1);
     }
   }
 

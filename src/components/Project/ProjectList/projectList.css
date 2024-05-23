@@ -1,0 +1,7 @@
+.list-border{
+    border-top: 1px solid rgb(188, 188, 188);
+
+}
+.list-border:hover{
+    transition: all 0.5s ease-in-out ;
+}

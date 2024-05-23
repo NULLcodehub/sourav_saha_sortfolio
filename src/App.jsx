@@ -17,10 +17,10 @@ function App() {
   useEffect(() => {
     // Initialize AOS
     AOS.init({
-      duration: 1000, 
-      easing: 'ease-in-out', 
+      duration: 400, 
+      easing: 'ease-in-0ut', 
       offset: 120, 
-      delay: 100,
+      delay: 70,
     });
   }, []);
   

@@ -13,7 +13,7 @@ const Hero = () => {
     return (
         <>
            
-            <motion.div id='Hero' className='flex flex-col mx-7 bg-white  items-center h-110'
+            <motion.div id='Hero' className='flex flex-col mx-16 bg-white  items-center h-110 '
             animate={{}}> 
                     <motion.div  className='flex  justify-center flex-col items-center h-96 my-20'
                     
@@ -23,9 +23,9 @@ const Hero = () => {
 
                     >
                         <motion.h1  id='header-intro' className='dev-intro  text-60px sm:text-80px  md:text-150px'>
-                            <motion.div  className='dev-intro-span1 ml-4 md:ml-0 text-gray-200 ' 
+                            <motion.div  className='dev-intro-span1 ml-4 md:ml-0 text-gray-200 w-fit' 
                               data-aos='fade-up'
-                              data-aos-delay='2000'
+                              data-aos-delay='3000'
                               data-aos-duration='3000'
                               
                             >
@@ -43,7 +43,7 @@ const Hero = () => {
                         </motion.h1>
                         <p className=' w-9/12  text-gray-500 py-4 md:py-0 md:text-lg md:w-6/12 discription-p'
                             data-aos='fade-down'
-                            data-aos-delay='2000'
+                            data-aos-delay='3000'
                             data-aos-duration='3000'
                         >
                             Hi, I am <span className='text-slate-950'>Sourav Saha</span>.I am a <span className='text-slate-950'>Fullstack Enginner</span>.I design and code beautiful simple <span className='text-slate-950'>digital products</span>. 

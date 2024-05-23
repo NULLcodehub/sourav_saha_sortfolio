@@ -34,6 +34,7 @@ const Navbar = () => {
                     <h1 className='mx-5 my-2  text-gray-500'
                         data-aos='fade-down'
                         data-aos-delay='3000'
+                        data-aos-duration='3000'
                     >Code by <span className='text-black '>Sourav</span></h1>
                 </div>
 

@@ -4,7 +4,7 @@ import React from 'react';
 import './About.css'
 const About = () => {
     return (
-        <div id="About" className=' bg-white   h-screen mx-10 md:mx-16'>
+        <div id="About" className=' bg-white   h-screen mx-10 md:mx-16 '>
             <section className='about flex justify-center  text-gray-300 text-40px md:text-70px mt-16 p-5'>
                 Get to Know Me
 

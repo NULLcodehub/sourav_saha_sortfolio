@@ -10,7 +10,9 @@ const NavbarList = ({closeNav}) => {
        <>
             <nav 
             data-aos='fade-down'
-            data-aos-delay='3000'>
+            data-aos-delay='3000'
+            data-aos-duration='3000'
+            >
                 <div>
                     <motion.ul className={` flex flex-col md:flex-row mt-14 md:mt-0 min-w-fit md:w-full justify-center  items-center navlinks`}>
                     
