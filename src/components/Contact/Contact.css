@@ -1,0 +1,16 @@
+.formfeild{
+    /* background: #000; */
+    @apply my-10;
+}
+.formfeild input{
+    @apply md:w-80 md:h-12 p-3 appearance-none;
+
+    border-bottom: 1px solid black;
+    
+
+}
+.formfeild textarea{
+    direction: none;
+    @apply w-80 h-40 p-3;
+    border-bottom: 1px solid black;
+}

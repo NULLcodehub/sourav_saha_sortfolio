@@ -17,11 +17,17 @@ function App() {
   useEffect(() => {
     // Initialize AOS
     AOS.init({
-      duration: 400, 
-      easing: 'ease-in-0ut', 
+      duration: 400,  
       offset: 120, 
       delay: 70,
     });
+
+    window.addEventListener('scroll', AOS.refresh);
+
+    return () => {
+      window.removeEventListener('scroll', AOS.refresh);
+    };
+    
   }, []);
   
 
@@ -29,7 +35,10 @@ function App() {
     <>
       
       <Navbar/>
-      <Cursor/>
+      <section className='hidden lg:block'>
+         <Cursor/>
+      </section>
+     
       <section id='Hero'>
         <Hero/>
       </section>
