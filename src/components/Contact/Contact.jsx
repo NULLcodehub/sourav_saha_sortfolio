@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import Sourav from "../../assets/projectImage/sourav.jpg"
 
 import './Contact.css'
+import Footer from '../Footer/Footer';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -71,7 +72,7 @@ const Contact = () => {
     return (
         <>
         
-            <section className='h-screen bg-black px-10 py-10  flex justify-center items-center  '>
+            <section className='h-screen bg-black md:px-10 md:py-10  flex justify-center flex-col items-center  '>
                 {/* <section className=''>
                         <div className='text-gray-300 text-40px md:text-70px mt-16 mx-10 md:mx-16 p-5'>
                             Let's Connect
@@ -143,20 +144,26 @@ const Contact = () => {
                 </section> */}
 
                 
-                <section className=' h-full w-full p-28'>
+                <section className=' h-full w-full md:p-28'>
                   <div className='text-white  flex border-b-2 border-b-white'>  
-                    <div className='text-white text-90px ' >
+                    <div className='text-white text-40px md:text-90px ' >
                       <img src={Sourav} alt="" className='w-20 h-20 inline rounded-full '/><span className='mx-10'>Let's get</span><div className='relative bottom-10'>connected</div>
                     </div>
                        
                   </div>
-                  <div className='flex justify-end'>
-                        <div className='w-56 h-56 bg-indigo-500 rounded-full mx-16 relative bottom-24'></div>
+                  <div className='flex h-16 justify-center md:justify-end'>
+                        <button>
+                          <div type="" className=' w-32 h-32 md:w-56 md:h-56 bg-indigo-500 rounded-full mx-16 my-10 md:my-0 relative flex text-lg md:text-30px text-white justify-center items-center md:bottom-24'>Get in touch</div>
+                        </button>
+                  </div>
+                  <div className='text-white mx-16 md:mx-10 flex justify-center md:justify-normal ' > 
+                    <button className='rounded-3xl py-4 px-7 relative top-32 md:top-0 colorFillup hover:transition-colors ease-in hover:bg-indigo-500 delay-100 duration-100 hover:transform'>souravsaha.prgmr@gmail.com</button>
                   </div>
                   
 
                 </section>
 
+                <Footer/>
             </section>
         
         </>

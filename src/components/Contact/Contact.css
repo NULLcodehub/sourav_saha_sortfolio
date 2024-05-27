@@ -14,3 +14,16 @@
     @apply w-80 h-40 p-3;
     border-bottom: 1px solid black;
 }
+
+.colorFillup{
+    border-color: white;
+    border: 0.5px solid white;
+
+    
+}
+.colorFillup:hover{
+    background: #6366F1;
+    /* animation: bgcolor 6s ease-in 5s  forwards ; */
+}
+
+
