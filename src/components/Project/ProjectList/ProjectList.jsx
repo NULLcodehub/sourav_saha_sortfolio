@@ -1,9 +1,11 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
-import React from 'react';
+import React ,{useState}from 'react';
 import './projectList.css'
 
 const ProjectList = ({projectDatas,onProjectHover,onProjectHoverLeave}) => {
     console.log(projectDatas)
+
+
 
     return (
 

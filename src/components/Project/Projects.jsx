@@ -4,6 +4,9 @@ import ProjectList from './ProjectList/ProjectList';
 import HoverProject from './HoverProject/HoverProject';
 const Projects = () => {
 
+
+    // console.log(handleCursor)
+
     const [hoveredProject,setHoveredProject]=useState(null)
     const [mouseMove,setMouseMove]=useState({x:0,y:0})
 
@@ -22,9 +25,12 @@ const Projects = () => {
     }
 
     
+    
+    
+
     return (
         <>
-            <section className=''>
+            <section className='' >
                 <div className='text-gray-300 text-40px md:text-70px mt-16 mx-10 md:mx-16 p-5'>
                     Recent Works
                 </div>
@@ -33,7 +39,7 @@ const Projects = () => {
             <section className='mx-0 md:mx-8 relative '
 
                 onMouseMove={handelMouseMove}
-
+                
             >
                 <ProjectList 
                 projectDatas={projectALLDatas}

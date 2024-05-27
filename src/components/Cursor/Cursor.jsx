@@ -3,6 +3,8 @@ import React, { useEffect, useState,useRef } from 'react';
 import './Cursor.css'
 const Cursor = () => {
 
+  // console.log(cursorComponent)
+
     const pointerRef = useRef(null);
 
   useEffect(() => {
@@ -31,6 +33,8 @@ const Cursor = () => {
 
     return (
         <>
+
+       
             <div className='' ref={pointerRef}
                 style={{
                     position: 'fixed',
@@ -42,14 +46,13 @@ const Cursor = () => {
                     pointerEvents: 'none',
                     cursor:'none',
                     background:'white',
-                    
-                    
-                    
-      }}
-      >  
+                    }}
+            >  
         
                 
-            </div>
+            </div> 
+          
+          
         </>
     );
 };

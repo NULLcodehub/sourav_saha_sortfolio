@@ -71,22 +71,22 @@ const Contact = () => {
     return (
         <>
         
-            <section className='h-screen '>
-                <section className=''>
+            <section className='h-screen bg-black px-10 py-10  flex justify-center items-center  '>
+                {/* <section className=''>
                         <div className='text-gray-300 text-40px md:text-70px mt-16 mx-10 md:mx-16 p-5'>
                             Let's Connect
                         </div>
                 </section>
                 
 
-                <section className='flex flex-col-reverse justify-center items-center md:flex-row mx-5 md:mx-16 '>
-                      <section className='bg-black text-white md:w-6/12 flex justify-center items-center  md:h-screen p-10 md:p-0'>
-                          <div >
+                <section className='bg-indigo-200 flex flex-col-reverse md:flex-row justify-center  '>
+                      <section className='bg-black w-5/12 flex items-center '>
+                          <div className=''>
                               <div className='flex justify-center'>
                                 <img src={Sourav} alt="" className='w-48 h-48 rounded-full' />
                               </div>
-                              <div className='flex justify-center'>
-                                <p className='w-11/12 md:w-8/12 my-0 md:my-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus excepturi autem non esse error totam officiis iure nesciunt praesentium necessitatibus?	</p>
+                              <div className='flex justify-center  text-white'>
+                                <p className='w-9/12'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus excepturi autem non esse error totam officiis iure nesciunt praesentium necessitatibus?	</p>
                               </div>
 
 
@@ -97,7 +97,7 @@ const Contact = () => {
 
 
 
-                  <section className=' md:w-6/12 flex justify-center items-center h-screen '>
+                  <section className='bg-gray-300 w-5/12 flex justify-center '>
                       <div>
                         <form onSubmit={handleSubmit}>
                           <div className='formfeild'>
@@ -140,10 +140,22 @@ const Contact = () => {
                         </form>
                       </div>
                   </section>
+                </section> */}
+
+                
+                <section className=' h-full w-full p-28'>
+                  <div className='text-white  flex border-b-2 border-b-white'>  
+                    <div className='text-white text-90px ' >
+                      <img src={Sourav} alt="" className='w-20 h-20 inline rounded-full '/><span className='mx-10'>Let's get</span><div className='relative bottom-10'>connected</div>
+                    </div>
+                       
+                  </div>
+                  <div className='flex justify-end'>
+                        <div className='w-56 h-56 bg-indigo-500 rounded-full mx-16 relative bottom-24'></div>
+                  </div>
+                  
+
                 </section>
-
-
-
 
             </section>
         

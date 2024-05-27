@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React,{useEffect,useState} from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AOS from 'aos';
 
@@ -10,6 +10,7 @@ import Projects from './components/Project/Projects';
 import Contact from './components/Contact/Contact';
 import Cursor from './components/Cursor/Cursor';
 import './App.css';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -29,6 +30,11 @@ function App() {
     };
     
   }, []);
+
+  // const [cursorComponent,setCursorComponent]=useState(false)
+  // const handleCursor=()=>{
+  //       setCursorComponent(true)
+  // }
   
 
   return (
@@ -54,7 +60,8 @@ function App() {
       <section id='Contact'>
         <Contact/>
       </section>
-        
+      
+      {/* <Footer/> */}
        
 
     
