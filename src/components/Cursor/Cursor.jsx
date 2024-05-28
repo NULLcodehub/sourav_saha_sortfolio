@@ -39,8 +39,8 @@ const Cursor = () => {
                 style={{
                     position: 'fixed',
                     zIndex: 999,
-                    width: '70px',
-                    height: '70px',
+                    width: '40px',
+                    height: '40px',
                     borderRadius: '50%',
                     
                     pointerEvents: 'none',

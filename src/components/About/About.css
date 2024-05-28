@@ -24,3 +24,9 @@
     to{background-size: 100% 100%;}
     
 }
+
+
+.skill-list ul li{
+    @apply flex gap-4 ;
+    font-weight: 500;    
+}

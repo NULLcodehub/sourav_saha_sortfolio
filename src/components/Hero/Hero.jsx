@@ -13,7 +13,7 @@ const Hero = () => {
     return (
         <>
            
-            <motion.div id='Hero' className='flex flex-col mx-16 bg-white  items-center h-110 '
+            <motion.div id='Hero' className='flex flex-col md:mx-16   items-center h-110 my-7 '
             animate={{}}> 
                     <motion.div  className='flex  justify-center flex-col items-center h-96 my-20'
                     
@@ -22,7 +22,7 @@ const Hero = () => {
                         
 
                     >
-                        <motion.h1  id='header-intro' className='dev-intro  text-60px sm:text-80px  md:text-150px'>
+                        <motion.h1  id='header-intro' className='dev-intro  text-50px sm:text-80px  md:text-150px'>
                             <motion.div  className='dev-intro-span1 ml-4 md:ml-0 text-gray-200 w-fit' 
                               data-aos='fade-up'
                               data-aos-delay='3000'
@@ -32,7 +32,7 @@ const Hero = () => {
                                 Fullstack
                             </motion.div>
 
-                            <motion.div className=' developer px-16 z-10 relative md:bottom-9'
+                            <motion.div className=' developer px-16 z-10 relative md:bottom-9 text-black'
                                 data-aos='fade-in'
                                 data-aos-duration='1000'
                                 data-aos-delay="7"

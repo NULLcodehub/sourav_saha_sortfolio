@@ -10,7 +10,7 @@ const ProjectList = ({projectDatas,onProjectHover,onProjectHoverLeave}) => {
     return (
 
        <>
-        <section>
+        <section className='projectlist'>
             <div>
                 <ul>
                     {projectDatas.map((projectData,index)=>(

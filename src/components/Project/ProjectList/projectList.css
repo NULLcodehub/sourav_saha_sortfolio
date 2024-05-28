@@ -1,3 +1,8 @@
+.projectlist{
+    cursor: none;
+}
+
+
 .list-border{
     border-top: 1px solid rgb(188, 188, 188);
 
