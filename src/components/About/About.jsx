@@ -32,7 +32,7 @@ const About = () => {
 
 
     return (
-        <div id="About" className=' bg-white  md:h-screen mx-10 md:mx-16 '>
+        <div id="About" className=' bg-white   md:h-screen mx-10 md:mx-16'>
             <section className='about flex justify-center  text-gray-300 text-40px md:text-70px mt-16 p-5'>
                 Get to Know Me
 
@@ -54,37 +54,44 @@ const About = () => {
             </section>
 
             <section className='flex flex-col md:flex-row md:justify-between md:items-center mt-16 mx-0 md:mx-28'>
-                <div className=' h-full  md:w-6/12'>
-                    <div className='text-center text-3xl mb-6'>Skills</div>
+                <div className=' h-full w-full  '>
+                    <div className='text-3xl mb-3 md:mx-20 text-gray-500 '>Tech Stack I  Know</div>
 
-                    <div className='flex justify-around text-xl md:text-2xl skill-list'>
-                        <ul>
+                    <div className=' text-gray-300  md:text-2xl skill-list p-6 '>
+                       
+                        <ul className=' flex text-2xl flex-col md:flex-row justify-center md:gap-10'>
                             <li><RiReactjsFill/>React Js</li>
                             <li><IoLogoNodejs/>Node Js</li>
                             <li><TbBrandTailwind/>Tailwind Css</li>
-                        </ul>
-                        <ul>
                             <li><TbBrandPython/>Python</li>
                             <li><BiLogoDjango/>Django</li>
                             <li><BiLogoFlask/>Flask</li>
+                            
                         </ul>
+                        {/* <ul>
+                            <li><TbBrandPython/>Python</li>
+                            <li><BiLogoDjango/>Django</li>
+                            <li><BiLogoFlask/>Flask</li>
+                        </ul> */}
 
                     </div>
 
                 </div>
 
-                <div className='  md:w-6/12 flex justify-center my-8 md:my-0' onMouseMove={handleMouseMove}>
-                    <AnimatePresence>   
-                    <motion.div className='w-52 h-52 bg-indigo-500 rounded-full flex justify-center items-center'
-                        onHoverStart={() => setIsHovered(true)}
-                        onHoverEnd={() => setIsHovered(false)}
-                        animate={magneticEffect}
-                         transition={{ type: 'spring', stiffness: 300, damping: 20 }}
+                {/* <div className='  md:w-6/12 flex justify-center my-8 md:my-0' onMouseMove={handleMouseMove}>
+                      
+                    <motion.div className='w-40 h-40 bg-black rounded-full flex justify-center items-center'
+                        // onHoverStart={() => setIsHovered(true)}
+                        // onHoverEnd={() => setIsHovered(false)}
+                        // animate={}
+                        
+                        whileHover={{ scale: 1.1 }}
+                        // transition={{ type: 'spring', stiffness: 300, damping: 700 }}
                     >
-                            <PiGithubLogoLight className='w-20 h-20 text-white '/>
+                            <PiGithubLogoLight className='w-20 h-20 text-white animate-pulse'/>
                     </motion.div>
-                    </AnimatePresence>
-                </div>
+                   
+                </div> */}
             </section>
 
 

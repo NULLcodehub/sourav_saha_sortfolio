@@ -30,33 +30,31 @@ const Projects = () => {
 
     return (
         <>
-            <section className='' >
-                <div className='text-gray-300 text-40px md:text-70px mt-16 mx-10 md:mx-16 p-5'>
-                    Recent Works
-                </div>
-            </section>
-
-            <section className='mx-0 md:mx-8 relative '
-
-                onMouseMove={handelMouseMove}
+            <section className='my-14'>
+                <section className='' >
+                    <div className='text-gray-300 text-40px md:text-70px mt-16 mx-10 md:mx-16 p-5'>
+                        Recent Works
+                    </div>
+                </section>
+                <section className='mx-0 md:mx-8 relative '
+                    onMouseMove={handelMouseMove}
                 
-            >
-                <ProjectList 
-                projectDatas={projectALLDatas}
-                onProjectHover={handelMouseEnter}
-                onProjectHoverLeave={handelMouseLeave}
-                  
-                />
-
-                {
-                    hoveredProject && 
-                    <HoverProject
-                        project={hoveredProject}
-                        mouseMove={mouseMove}
-                    
+                >
+                    <ProjectList
+                    projectDatas={projectALLDatas}
+                    onProjectHover={handelMouseEnter}
+                    onProjectHoverLeave={handelMouseLeave}
+                
                     />
-
-                }
+                    {
+                        hoveredProject &&
+                        <HoverProject
+                            project={hoveredProject}
+                            mouseMove={mouseMove}
+                
+                        />
+                    }
+                </section>
             </section>
         </>
     );

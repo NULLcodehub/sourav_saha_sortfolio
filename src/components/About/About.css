@@ -30,3 +30,12 @@
     @apply flex gap-4 ;
     font-weight: 500;    
 }
+
+.skill-list li:hover{
+    /* @apply translate-x-0 translate-y-2; */
+    /* transform-origin:center; */
+    /* transform: translateX(1),translateY(2); */
+
+}
+
+
