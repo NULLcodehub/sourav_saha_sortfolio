@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import { Link ,BrowserRouter as Router} from 'react-router-dom';
 import Sourav from "../../assets/projectImage/sourav.jpg"
 
 import './Contact.css'
@@ -151,9 +152,11 @@ const Contact = () => {
                     </div>
                        
                   </div>
+
                   <div className='flex h-16 justify-center md:justify-end'>
+                    
                         <button>
-                          <div type="" className='w-32 h-32 md:w-56 md:h-56  bg-indigo-500 rounded-full mx-16 my-10 md:my-0 relative flex text-lg md:text-30px text-white justify-center items-center md:bottom-28'>Get in touch</div>
+                          <Link to="/form"><div type="" className='w-32 h-32 md:w-56 md:h-56  bg-indigo-500 rounded-full mx-16 my-10 md:my-0 relative flex text-lg md:text-30px text-white justify-center items-center md:bottom-28'>Get in touch</div></Link>
                         </button>
                   </div>
                   <div className='text-white mx-16 md:mx-10 flex justify-center md:justify-normal ' > 

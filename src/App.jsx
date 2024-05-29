@@ -1,7 +1,6 @@
-import React,{useEffect,useState} from 'react'
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AOS from 'aos';
-
 
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
@@ -11,15 +10,14 @@ import Contact from './components/Contact/Contact';
 import Cursor from './components/Cursor/Cursor';
 import './App.css';
 import Footer from './components/Footer/Footer';
-
+import Form from './components/Form/Form';
 
 function App() {
-
   useEffect(() => {
     // Initialize AOS
     AOS.init({
-      duration: 400,  
-      offset: 120, 
+      duration: 400,
+      offset: 120,
       delay: 70,
     });
 
@@ -28,47 +26,48 @@ function App() {
     return () => {
       window.removeEventListener('scroll', AOS.refresh);
     };
-    
   }, []);
 
-  // const [cursorComponent,setCursorComponent]=useState(false)
-  // const handleCursor=()=>{
-  //       setCursorComponent(true)
-  // }
-  
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
 
+        <Route path="/*" element={<Main />} />
+        <Route path="/form" element={<Form />} />
+        
+      </Routes>
+    </Router>
+  );
+}
+
+const Main = () => {
   return (
     <>
       
-      <Navbar/>
       <section className='hidden lg:block'>
-         <Cursor/>
+        <Cursor />
       </section>
-     
+
       <section id='Hero'>
-        <Hero/>
+        <Hero />
       </section>
 
       <section id='About'>
-        <About/>
+        <About />
       </section>
 
       <section id='Project'>
-        <Projects/>
+        <Projects />
       </section>
 
       <section id='Contact'>
-        <Contact/>
+        <Contact />
       </section>
       
-      {/* <Footer/> */}
-       
-
-    
-      
-      {/* <About/> */}
+      <Footer />
     </>
   );
 };
 
-export default App
+export default App;
