@@ -1,48 +1,40 @@
 [
     {
+
       "projectId": 1,
-      "projectName": "Website Redesign",
-      "description": "Complete redesign of the company website to improve user experience and responsiveness.",
-      "status": "In Progress",
-      "startDate": "2024-01-15",
-      "endDate": "2024-06-30",
-      "teamMembers": [
-        { "memberId": "M001", "name": "Alice Johnson", "role": "Project Manager" },
-        { "memberId": "M002", "name": "Bob Smith", "role": "Lead Developer" },
-        { "memberId": "M003", "name": "Carol Davis", "role": "UI/UX Designer" }
-      ],
-      "tags": ["web", "design", "user experience", "responsive"],
-      "imageUrl": "https://example.com/images/website-redesign.jpg"
+      "productType":"rental site",
+      "projectName": "Rent It",
+      "description": "RentIT is a streamlined rental platform that has been redesigned using HTML, CSS, and Bootstrap to enhance user experience and visual appeal. The updated interface features a responsive design for optimal use across all devices, modern aesthetics with improved accessibility, and user-friendly forms for easier property listings and rental inquiries. With advanced search functionality and dynamic real-time updates, RentIT efficiently connects property owners with renters, offering a contemporary and rental process.",
+      "status": "Completed",
+      "startDate": "2023-01-15",
+      "endDate": "2024-01-25",
+      "projectType": "web design",
+      "image": "project1.png",
+      "url": "https://nullcodehub.github.io/home-rental-site/"
     },
     {
       "projectId": 2,
-      "projectName": "Mobile App Development",
+      "productType":"E-Commerce",
+      "projectName": "Your mart",
       "description": "Development of a new mobile application for e-commerce platform.",
       "status": "Completed",
       "startDate": "2023-07-01",
       "endDate": "2024-02-28",
-      "teamMembers": [
-        { "memberId": "M004", "name": "David Martin", "role": "Mobile Developer" },
-        { "memberId": "M005", "name": "Eva Green", "role": "Backend Developer" },
-        { "memberId": "M006", "name": "Frank Brown", "role": "QA Engineer" }
-      ],
-      "tags": ["mobile", "e-commerce", "development"],
-      "imageUrl": "https://example.com/images/mobile-app-development.jpg"
+      "projectType": "web design",
+      "image": "project2.png",
+      "url": "https://nullcodehub.github.io/E-commerce-html-bootstrap/"
     },
     {
       "projectId": 3,
+      "productType":"E-Commerce",
       "projectName": "Cloud Migration",
       "description": "Migrating the company's infrastructure to a cloud-based solution.",
       "status": "Not Started",
       "startDate": "2024-07-01",
       "endDate": "2025-01-31",
-      "teamMembers": [
-        { "memberId": "M007", "name": "Grace Wilson", "role": "Cloud Architect" },
-        { "memberId": "M008", "name": "Henry Moore", "role": "DevOps Engineer" },
-        { "memberId": "M009", "name": "Ivy Taylor", "role": "Security Specialist" }
-      ],
-      "tags": ["cloud", "migration", "infrastructure"],
-      "imageUrl": "https://example.com/images/cloud-migration.jpg"
+      "projectType": "web design",
+      
+      "url": "https://nullcodehub.github.io/home-rental-site/"
     }
   ]
   

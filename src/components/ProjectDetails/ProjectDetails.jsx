@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link,useParams } from 'react-router-dom';
 import projectALLDatas from '../../../projects.json'
+import Footer from '../Footer/Footer';
+// import projectim from '../../assets/projectImage/project1.jpg'
 
 const ProjectDetails = () => {
     // console.log(props.data)
@@ -16,18 +18,42 @@ const ProjectDetails = () => {
 
     return (
         <>
-            <section className='h-screen '>
+            <section className='h-screen mx-2 my-3 md:my-16 md:mx-32  '>
                 <div>
-                    <div>
+                    <div className='text-40px md:text-70px'>
                         {
-                            project.projectId
+                            project.projectName
                         }
+                    </div>
+                    <div className='flex flex-col md:flex-row justify-between my-10'>
+                        <div className=' md:w-3/12 border-b-2 border-gray-300 md:px-2 py-4 md:py-1'>
+                            Status: {project.status}
+                        </div>
+                        <div className=' md:w-3/12 border-b-2 border-gray-300 md:px-2 py-4 md:py-1'>
+                            Start Date: {project.startDate}
+                        </div>
+                        <div className='md:w-3/12 border-b-2 border-gray-300  md:px-2 py-4 md:py-1'>
+                            End Date: {project.endDate}
+                        </div>
+                    </div>
+                    <div className=' flex justify-center  bg-gray-100 p-3'>
+                        <div>
+                            <p className='text-center text-neutral-300'>click to view live</p>
+                            {console.log(project.url)}
+                            <a href={project.url} target='blank' className=' flex justify-center'><img src={`/src/assets/projectImage/${project.image}`} alt={project.image} className='w-10/12' /></a>
+                        </div>
+                       
+                    </div>
+
+                    <div className=' flex justify-center my-10'>
+                        {/* <a href={project.url}><button className='bg-indigo-500 text-white px-5 py-3'>View live</button></a> */}
+                        {/* <p className='w-9/12 text-3xl'>{project.description} </p> */}
                     </div>
                 </div>
 
 
             </section>
-        
+            <Footer/>
         
         
         </>

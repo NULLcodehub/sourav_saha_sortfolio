@@ -46,7 +46,7 @@ const ProjectList = ({projectDatas,onProjectHover,onProjectHoverLeave}) => {
                                 {projectData.projectName}
                             </div>
                             <div className='text-right'>
-                                {projectData.tags[0]}
+                                {projectData.productType}
                             </div>
                         </li>
                         </Link>
@@ -60,15 +60,15 @@ const ProjectList = ({projectDatas,onProjectHover,onProjectHoverLeave}) => {
             </div>
 
         </section>
-        {
+        {/* {
             console.log(data)
-        }
-        {clicked && 
+        } */}
+        {/* {clicked && 
         
             
                 <ProjectDetails props={data} />
             
-        }
+        } */}
        
        </>
     );

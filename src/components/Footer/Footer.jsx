@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         
         <>  
-            <section className='text-white w-full '>
+            <section className='text-white w-full bg-black py-2 '>
                 <div className='flex justify-between mx-8 mb:mx-0'>
                     <div  className='hidden md:block'>
                         <p>version</p>

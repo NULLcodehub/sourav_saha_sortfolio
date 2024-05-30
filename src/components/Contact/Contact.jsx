@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Link ,BrowserRouter as Router} from 'react-router-dom';
 import Sourav from "../../assets/projectImage/sourav.jpg"
+import { GoArrowDownLeft } from "react-icons/go";
 
 import './Contact.css'
 import Footer from '../Footer/Footer';
@@ -152,15 +153,16 @@ const Contact = () => {
                     </div>
                        
                   </div>
-
-                  <div className='flex h-16 justify-center md:justify-end'>
-                    
+                      
+                  <div className='flex h-16 justify-center md:justify-end '>
+                        <div className="hidden  text-white md:flex items-center relative bottom-52 left-96 ml-10"><GoArrowDownLeft className='w-14 h-12'/></div>
                         <button>
                           <Link to="/form"><div type="" className='w-32 h-32 md:w-56 md:h-56  bg-indigo-500 rounded-full mx-16 my-10 md:my-0 relative flex text-lg md:text-30px text-white justify-center items-center md:bottom-28'>Get in touch</div></Link>
                         </button>
                   </div>
-                  <div className='text-white mx-16 md:mx-10 flex justify-center md:justify-normal ' > 
+                  <div className='text-white mx-16 md:mx-10 flex  justify-center md:justify-normal ' > 
                     <a href={`mailto:contact@example.com?subject=Inquiry%20about%20`}><button className='rounded-3xl py-4 px-7 relative  top-32 md:top-0 colorFillup hover:transition-colors ease-in hover:bg-indigo-500 delay-100 duration-100 hover:transform '>souravsaha.prgmr@gmail.com</button></a>
+                    {/* <a href={`mailto:contact@example.com?subject=Inquiry%20about%20`}><button className='rounded-3xl py-4 px-7 relative  top-32 md:top-0 colorFillup hover:transition-colors ease-in hover:bg-indigo-500 delay-100 duration-100 hover:transform  mx-2'> Git hub</button></a> */}
                   </div>
                   
 
