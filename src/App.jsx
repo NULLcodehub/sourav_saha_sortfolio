@@ -11,6 +11,7 @@ import Cursor from './components/Cursor/Cursor';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Form from './components/Form/Form';
+import ProjectDetails from './components/ProjectDetails/ProjectDetails';
 
 function App() {
   useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
 
         <Route path="/*" element={<Main />} />
         <Route path="/form" element={<Form />} />
+        <Route path="/project/:projectId" element={<ProjectDetails />} />
         
       </Routes>
     </Router>
@@ -64,8 +66,10 @@ const Main = () => {
       <section id='Contact'>
         <Contact />
       </section>
+
+      <ProjectDetails/>
       
-      <Footer />
+      
     </>
   );
 };

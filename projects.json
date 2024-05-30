@@ -1,6 +1,6 @@
 [
     {
-      "projectId": "P001",
+      "projectId": 1,
       "projectName": "Website Redesign",
       "description": "Complete redesign of the company website to improve user experience and responsiveness.",
       "status": "In Progress",
@@ -15,7 +15,7 @@
       "imageUrl": "https://example.com/images/website-redesign.jpg"
     },
     {
-      "projectId": "P002",
+      "projectId": 2,
       "projectName": "Mobile App Development",
       "description": "Development of a new mobile application for e-commerce platform.",
       "status": "Completed",
@@ -30,7 +30,7 @@
       "imageUrl": "https://example.com/images/mobile-app-development.jpg"
     },
     {
-      "projectId": "P003",
+      "projectId": 3,
       "projectName": "Cloud Migration",
       "description": "Migrating the company's infrastructure to a cloud-based solution.",
       "status": "Not Started",
