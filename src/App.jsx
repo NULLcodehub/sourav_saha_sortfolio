@@ -66,10 +66,6 @@ const Main = () => {
       <section id='Contact'>
         <Contact />
       </section>
-
-      <ProjectDetails/>
-      
-      
     </>
   );
 };

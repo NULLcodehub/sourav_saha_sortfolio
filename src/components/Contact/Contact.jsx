@@ -160,7 +160,7 @@ const Contact = () => {
                         </button>
                   </div>
                   <div className='text-white mx-16 md:mx-10 flex justify-center md:justify-normal ' > 
-                    <button className='rounded-3xl py-4 px-7 relative  top-32 md:top-0 colorFillup hover:transition-colors ease-in hover:bg-indigo-500 delay-100 duration-100 hover:transform '>souravsaha.prgmr@gmail.com</button>
+                    <a href={`mailto:contact@example.com?subject=Inquiry%20about%20`}><button className='rounded-3xl py-4 px-7 relative  top-32 md:top-0 colorFillup hover:transition-colors ease-in hover:bg-indigo-500 delay-100 duration-100 hover:transform '>souravsaha.prgmr@gmail.com</button></a>
                   </div>
                   
 
