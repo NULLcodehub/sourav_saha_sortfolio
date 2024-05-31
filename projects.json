@@ -9,7 +9,7 @@
       "startDate": "2023-01-15",
       "endDate": "2024-01-25",
       "projectType": "web design",
-      "image": "/public/assets/projectImage/projecta.png",
+      "image": "/assets/projectImage/projecta.png",
       "url": "https://nullcodehub.github.io/home-rental-site/",
       "projectGithub":"https://github.com/NULLcodehub/home-rental-site"
     },
@@ -22,7 +22,7 @@
       "startDate": "2023-07-01",
       "endDate": "2024-02-28",
       "projectType": "web design",
-      "image": "/public/assets/projectImage/projectb.png",
+      "image": "/assets/projectImage/projectb.png",
       "url": "https://nullcodehub.github.io/E-commerce-html-bootstrap/",
       "projectGithub":"https://github.com/NULLcodehub/E-commerce-html-bootstrap"
     }
