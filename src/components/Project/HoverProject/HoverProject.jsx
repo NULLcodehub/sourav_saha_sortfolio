@@ -35,7 +35,7 @@ const HoverProject = ({project,mouseMove}) => {
                     <div>{project.endDate}</div>
                 </div> */}
                 <div>
-                    <img src={`../public/projectImage/${project.image}`} alt="" className='w-fit h-2/5  border-2'  />
+                    <img src={`../src/assets/projectImage/${project.image}`} alt="" className='w-fit h-2/5  border-2'  />
                 </div>
                 
 
