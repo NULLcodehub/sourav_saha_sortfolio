@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import Spline from '@splinetool/react-spline';
 import Navbar from '../Navbar/Navbar';
 import {motion, scroll} from 'framer-motion';
+import GitHub from '../Github/GitHub';
 import 'aos/dist/aos.css'
 import AOS from 'aos';
 
@@ -57,6 +58,15 @@ const Hero = () => {
                 
 
             </motion.div>
+            <section 
+                data-aos='fade-up'
+                data-aos-duration='1000'
+                data-aos-delay="7"
+                className='fixed '
+            >
+                <GitHub/>
+            </section>
+            
         </>
         
     );

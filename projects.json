@@ -10,7 +10,8 @@
       "endDate": "2024-01-25",
       "projectType": "web design",
       "image": "project1.png",
-      "url": "https://nullcodehub.github.io/home-rental-site/"
+      "url": "https://nullcodehub.github.io/home-rental-site/",
+      "projectGithub":"https://github.com/NULLcodehub/home-rental-site"
     },
     {
       "projectId": 2,
@@ -22,19 +23,8 @@
       "endDate": "2024-02-28",
       "projectType": "web design",
       "image": "project2.png",
-      "url": "https://nullcodehub.github.io/E-commerce-html-bootstrap/"
-    },
-    {
-      "projectId": 3,
-      "productType":"E-Commerce",
-      "projectName": "Cloud Migration",
-      "description": "Migrating the company's infrastructure to a cloud-based solution.",
-      "status": "Not Started",
-      "startDate": "2024-07-01",
-      "endDate": "2025-01-31",
-      "projectType": "web design",
-      
-      "url": "https://nullcodehub.github.io/home-rental-site/"
+      "url": "https://nullcodehub.github.io/E-commerce-html-bootstrap/",
+      "projectGithub":"https://github.com/NULLcodehub/E-commerce-html-bootstrap"
     }
   ]
   

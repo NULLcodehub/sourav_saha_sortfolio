@@ -12,8 +12,11 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import Form from './components/Form/Form';
 import ProjectDetails from './components/ProjectDetails/ProjectDetails';
+import useScrollToTop from './Hooks/useScrollTo';
+import GitHub from './components/Github/GitHub';
 
 function App() {
+  useScrollToTop();
   useEffect(() => {
     // Initialize AOS
     AOS.init({
@@ -30,7 +33,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <>
       <Navbar />
       <Routes>
 
@@ -39,7 +42,7 @@ function App() {
         <Route path="/project/:projectId" element={<ProjectDetails />} />
         
       </Routes>
-    </Router>
+    </>
   );
 }
 
@@ -66,6 +69,7 @@ const Main = () => {
       <section id='Contact'>
         <Contact />
       </section>
+      
     </>
   );
 };

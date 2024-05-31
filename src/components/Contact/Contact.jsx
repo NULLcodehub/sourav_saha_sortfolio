@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Link ,BrowserRouter as Router} from 'react-router-dom';
 import Sourav from "../../assets/projectImage/sourav.jpg"
 import { GoArrowDownLeft } from "react-icons/go";
+import { PiGithubLogoThin } from "react-icons/pi";
 
 import './Contact.css'
 import Footer from '../Footer/Footer';
@@ -164,6 +165,11 @@ const Contact = () => {
                     <a href={`mailto:contact@example.com?subject=Inquiry%20about%20`}><button className='rounded-3xl py-4 px-7 relative  top-32 md:top-0 colorFillup hover:transition-colors ease-in hover:bg-indigo-500 delay-100 duration-100 hover:transform '>souravsaha.prgmr@gmail.com</button></a>
                     {/* <a href={`mailto:contact@example.com?subject=Inquiry%20about%20`}><button className='rounded-3xl py-4 px-7 relative  top-32 md:top-0 colorFillup hover:transition-colors ease-in hover:bg-indigo-500 delay-100 duration-100 hover:transform  mx-2'> Git hub</button></a> */}
                   </div>
+                  <div className='text-white mx-16 md:mx-10 flex md:hidden my-4 justify-center md:justify-normal ' > 
+                    <a href="https://github.com/NULLcodehub" target='blank'><button className='rounded-3xl py-4 px-7 relative  top-32 md:top-0 colorFillup hover:transition-colors ease-in hover:bg-indigo-500 delay-100 duration-100 hover:transform flex gap-4 items-center '>NULLcodehub <PiGithubLogoThin className='w-5 h-5'/></button></a>
+                    {/* <a href={`mailto:contact@example.com?subject=Inquiry%20about%20`}><button className='rounded-3xl py-4 px-7 relative  top-32 md:top-0 colorFillup hover:transition-colors ease-in hover:bg-indigo-500 delay-100 duration-100 hover:transform  mx-2'> Git hub</button></a> */}
+                  </div>
+
                   
 
                 </section>
