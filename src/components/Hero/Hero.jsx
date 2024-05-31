@@ -14,16 +14,16 @@ const Hero = () => {
     return (
         <>
            
-            <motion.div id='Hero' className='flex flex-col md:mx-16   items-center h-110 my-7 '
+            <motion.div id='Hero' className='flex flex-col md:mx-16   items-center h-98  md:h-screen   '
             animate={{}}> 
-                    <motion.div  className='flex  justify-center flex-col items-center h-96 my-20'
+                    <motion.div  className='flex  justify-center flex-col items-center h-96 md:mt-40'
                     
                         initial={{opacity:0}}
                         whileInView={{opacity:[0,0.1,0.2,0.3,0.4,0.5,0.7,0.8,0.9,1]}}
                         
 
                     >
-                        <motion.h1  id='header-intro' className='dev-intro  text-50px sm:text-80px  md:text-150px'>
+                        <motion.h1  id='header-intro' className='dev-intro  text-50px sm:text-80px  md:text-200px'>
                             <motion.div  className='dev-intro-span1 ml-4 md:ml-0 text-gray-200 w-fit' 
                               data-aos='fade-up'
                               data-aos-delay='3000'
@@ -58,14 +58,10 @@ const Hero = () => {
                 
 
             </motion.div>
-            <section 
-                data-aos='fade-up'
-                data-aos-duration='1000'
-                data-aos-delay="7"
-                className='fixed '
+            {/* <section 
             >
                 <GitHub/>
-            </section>
+            </section> */}
             
         </>
         

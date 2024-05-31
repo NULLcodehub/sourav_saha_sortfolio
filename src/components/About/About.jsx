@@ -54,12 +54,12 @@ const About = () => {
             </section>
 
             <section className='flex flex-col md:flex-row md:justify-between md:items-center mt-16 mx-0 md:mx-28'>
-                <div className=' h-full w-full  '>
+                <div className='  h-full w-full flex flex-col justify-center items-center'>
                     <div className='text-3xl mb-3 md:mx-20 text-gray-500 '>Tech Stack I  Know</div>
 
                     <div className=' text-gray-300  md:text-2xl skill-list p-6 '>
                        
-                        <ul className=' flex text-2xl flex-col md:flex-row justify-center md:gap-10'>
+                        <ul className=' flex text-2xl flex-col md:flex-row  md:gap-10'>
                             <li><RiReactjsFill/>React Js</li>
                             <li><IoLogoNodejs/>Node Js</li>
                             <li><TbBrandTailwind/>Tailwind Css</li>
@@ -68,11 +68,7 @@ const About = () => {
                             <li><BiLogoFlask/>Flask</li>
                             
                         </ul>
-                        {/* <ul>
-                            <li><TbBrandPython/>Python</li>
-                            <li><BiLogoDjango/>Django</li>
-                            <li><BiLogoFlask/>Flask</li>
-                        </ul> */}
+                      
 
                     </div>
 

@@ -149,7 +149,7 @@ const Contact = () => {
                 
                 <section className=' h-full w-full md:p-28'>
                   <div className='text-white  flex border-b-2 border-b-white'>  
-                    <div className='text-white text-40px md:text-90px ' >
+                    <div className='text-white text-20px md:text-90px ' >
                       <img src={Sourav} alt="" className='w-20 h-20 inline rounded-full '/><span className=' mx-5 md:mx-10'>Let's get</span><div className='relative left-24 bottom-5 md:left-0 md:bottom-10 w-fit'>connected</div>
                     </div>
                        
@@ -161,14 +161,17 @@ const Contact = () => {
                           <Link to="/form"><div type="" className='w-32 h-32 md:w-56 md:h-56  bg-indigo-500 rounded-full mx-16 my-10 md:my-0 relative flex text-lg md:text-30px text-white justify-center items-center md:bottom-28'>Get in touch</div></Link>
                         </button>
                   </div>
-                  <div className='text-white mx-16 md:mx-10 flex  justify-center md:justify-normal ' > 
+                  <div className='flex flex-col md:flex-row'>
+                    <div className='text-white mx-16 md:mx-10 flex  justify-center md:justify-normal ' > 
                     <a href={`mailto:contact@example.com?subject=Inquiry%20about%20`}><button className='rounded-3xl py-4 px-7 relative  top-32 md:top-0 colorFillup hover:transition-colors ease-in hover:bg-indigo-500 delay-100 duration-100 hover:transform '>souravsaha.prgmr@gmail.com</button></a>
                     {/* <a href={`mailto:contact@example.com?subject=Inquiry%20about%20`}><button className='rounded-3xl py-4 px-7 relative  top-32 md:top-0 colorFillup hover:transition-colors ease-in hover:bg-indigo-500 delay-100 duration-100 hover:transform  mx-2'> Git hub</button></a> */}
                   </div>
-                  <div className='text-white mx-16 md:mx-10 flex md:hidden my-4 justify-center md:justify-normal ' > 
+                  <div className='text-white mx-16 md:mx-10 flex my-4 md:my-0  justify-center md:justify-normal ' > 
                     <a href="https://github.com/NULLcodehub" target='blank'><button className='rounded-3xl py-4 px-7 relative  top-32 md:top-0 colorFillup hover:transition-colors ease-in hover:bg-indigo-500 delay-100 duration-100 hover:transform flex gap-4 items-center '>NULLcodehub <PiGithubLogoThin className='w-5 h-5'/></button></a>
                     {/* <a href={`mailto:contact@example.com?subject=Inquiry%20about%20`}><button className='rounded-3xl py-4 px-7 relative  top-32 md:top-0 colorFillup hover:transition-colors ease-in hover:bg-indigo-500 delay-100 duration-100 hover:transform  mx-2'> Git hub</button></a> */}
                   </div>
+                  </div>
+                  
 
                   
 

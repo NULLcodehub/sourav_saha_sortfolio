@@ -8,7 +8,7 @@ const GitHub = () => {
 
             <section 
                  
-                className='hidden  z-50 fixed  github md:flex justify-center items-center bg-white w-fit h-fit  rounded-full'>
+                className='hidden  z-50  github md:flex justify-center items-center bg-white w-fit h-fit  rounded-full'>
 
                 <a href="https://github.com/NULLcodehub" className='' target='blank'><BsGithub className=' w-14 h-14 z-50'/></a>
                 
