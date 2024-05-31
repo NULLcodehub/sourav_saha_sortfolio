@@ -46,7 +46,7 @@ const ProjectDetails = () => {
                         <div>
                             <p className='text-center text-neutral-300'>click to view live</p>
                             {console.log(project.url)}
-                            <a href={project.url} target='blank' className=' flex justify-center'><img src={`/src/assets/projectImage/${project.image}`} alt={project.image} className='w-10/12' /></a>
+                            <a href={project.url} target='blank' className=' flex justify-center'><img src={project.image} alt={project.image} className='w-10/12' /></a>
                         </div>
                        
                     </div>
